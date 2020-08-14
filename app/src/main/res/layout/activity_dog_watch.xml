@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/watchdogName"
+        android:text="Dog's name"></EditText>
+    <EditText
+        android:id="@+id/watchdogLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog's location"></EditText>
+    <EditText
+        android:id="@+id/watchdogDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog's description"></EditText>
+    <ImageView
+        android:id="@+id/watchdogImage"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:src="@drawable/ic_baseline_add_a_photo_24"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/addPictureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adopt"></Button>
+    </LinearLayout>
+</LinearLayout>
