@@ -7,17 +7,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/watchdogName"
-        android:text="Dog's name"></EditText>
+        android:hint="Dog's name"></EditText>
     <EditText
         android:id="@+id/watchdogLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dog's location"></EditText>
+        android:hint="Dog's location"></EditText>
     <EditText
         android:id="@+id/watchdogDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dog's description"></EditText>
+        android:hint="Dog's description"></EditText>
     <ImageView
         android:id="@+id/watchdogImage"
         android:layout_width="380dp"

@@ -27,7 +27,7 @@ class BrowseActivity:AppCompatActivity() {
             var name:String?=null
             var location:String?=null
             val bundle:Bundle?= intent.extras
-            //var image:Int?=null
+            var image:Int?=null
 
 
             if(bundle!=null){
@@ -35,6 +35,7 @@ class BrowseActivity:AppCompatActivity() {
             name=bundle!!.getString("dName")
             location=bundle!!.getString("dLocation")
             }
+
             //postToList()
 
             recyclerview.layoutManager=LinearLayoutManager(this)
@@ -44,8 +45,8 @@ class BrowseActivity:AppCompatActivity() {
              addToList("Rex","Zagreb",R.mipmap.pug)
              addToList("Timmy","Slatina",R.mipmap.labrador)
              if(!name.isNullOrEmpty()||!location.isNullOrEmpty()) {
-                 //if(image!=null)
-                 addToList(name.toString(), location.toString(),R.mipmap.ic_launcher)
+                 //if (image != null)
+                     addToList(name.toString(), location.toString(),R.mipmap.beagle)
              }
 
     }

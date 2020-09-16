@@ -37,9 +37,8 @@ class DogAddingActivity:AppCompatActivity() {
         }
 
         addDogButton.setOnClickListener {
-            val image : ImageView?=dogsImage.drawable as ImageView
-            //var image= dogsImage.drawable as Int
-            //if(image==null) Toast.makeText(this,"Put your dog's picture!",Toast.LENGTH_SHORT).show()
+            val image=dogsImage.drawable
+            //if(image==R.id.) Toast.makeText(this,"Put your dog's picture!",Toast.LENGTH_SHORT).show()
             var name = dogName.text.toString()
             if(name==null) Toast.makeText(this,"What is your dog's name",Toast.LENGTH_SHORT).show()
             var location = dogLocation.text.toString()

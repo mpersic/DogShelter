@@ -9,22 +9,27 @@
         android:id="@+id/nameRegistration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"></EditText>
+        android:maxLines="1"
+        android:hint="Username"></EditText>
     <EditText
         android:id="@+id/emailRegistration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"></EditText>
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="Email"></EditText>
     <EditText
         android:id="@+id/passwordRegistration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"></EditText>
+        android:inputType="textPassword"
+        android:hint="Password"></EditText>
     <EditText
         android:id="@+id/confirmPasswordRegistration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirm Password"></EditText>
+        android:inputType="textPassword"
+        android:hint="Confirm Password"></EditText>
     <Button
         android:id="@+id/saveButtonRegistration"
         android:layout_width="wrap_content"

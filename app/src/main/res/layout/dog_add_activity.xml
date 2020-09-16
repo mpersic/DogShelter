@@ -7,12 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/dogName"
-        android:text="Your dog's name"></EditText>
+        android:hint="Your dog's name"></EditText>
     <EditText
         android:id="@+id/dogLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Your dog's location"></EditText>
+        android:hint="Your dog's location"></EditText>
     <ImageView
         android:id="@+id/dogsImage"
         android:layout_width="380dp"
